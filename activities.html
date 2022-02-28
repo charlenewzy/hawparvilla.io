@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Things to Do - Haw Par Villa</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Trebuchet MS, Helvetica, Sans-serif;
+  font-size: 20px;
+  colour: #394053;
+}
+a:link {
+  color: #394053;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #394053;
+}
+
+/*BUTTON*/
+
+.button {
+  background-color: #F5A65B;
+  border: none;
+  color: white;
+  padding: 22px 50px;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button:hover {
+  background-color: #394053;
+  color: white;
+}
+
+/*IMAGES*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}  
+
+/*HEADER*/
+.header {
+  text-align: center;
+  color:black;
+  font-size:50px;
+  font-family:Lucida Handwriting;
+}
+
+/*NAVIGATION BAR*/
+.topnav {
+  overflow: hidden;
+  background-color: #DE5055;
+  font-size: 15px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ffcb47;
+  color: #DE5055;
+}
+.topnav a:active {
+  background-color: #ffcb47;
+  color: #000000;
+}
+
+/*COLUMNS*/
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  color: #394053;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  color: #394053;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #DE5055;
+  color: white;
+  font-size: 20px;
+}
+
+.footer a {
+  padding: 10px;
+  text-align: center;
+  background-color: #DE5055;
+  color: white;
+}
+
+/*BACK TO TOP BUTTON*/
+#button {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  height: 55px;
+  border-radius: 4px;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="button" title="Back to Top">Back to Top</button>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="activities.html">THINGS TO DO</a>
+  <a href="gettingthere.html">GETTING THERE</a>
+</div> 
+
+<h3 style="text-align:center;color:#394053"><a href="index.html">Home</a> > Things to Do</h3>
+
+<div style="display:flex;background-color:#93D7BF">
+<h5 style="flex:1;text-align:center;color:#394053"><a href="#hellmuseum">Hell's Museum</a></h5>
+<h5 style="flex:1;text-align:center;color:#394053"><a href="#culturecourtyard">Culture Courtyard</a></h5>
+<h5 style="flex:1;text-align:center;color:#394053"><a href="#hopparvilla">Hop! Par Villa</a></h5>
+<h5 style="flex:1;text-align:center;color:#394053"><a href="#exhibitions">Exhibitions</a></h5>
+<h5 style="flex:1;text-align:center;color:#394053"><a href="#educationalprogrammes">Educational Programmes</a></h5>
+</div>
+
+<div class="row" style="background-color: #EBE3F2">  
+  <div class="column">
+   <h2 id="hellmuseum" class="header">Hell's Museum</h2>
+   <p>Chill out at our Culture Courtyard – the perfect space for music and Arts. This open space is enveloped by splashes of vibrant colour from beautiful pavilions inspired by Chinese architecture.
+   <br><br>Immerse yourself in the laid-back vibes of Haw Par Villa. Lucky ones will even spot our squirrels leaping playfully from tree to tree. Transform the space for any occasion – the sky’s the limit!</p>
+   <a href="https://www.hawparvilla.sg/hells-museum/?date=2022-03-01"><button class="button">Buy Tickets</button></a>
+   </div>
+  <div class="column">
+   <img src="hellmuseum.jpg" alt="Hell's Museum" title="Hell's Museum">
+  </div>
+</div>
+
+<div class="row">  
+  <div class="column">
+   <img src="culturecourtyard.jpg" alt="Culture Courtyard" title="Culture Courtyard">
+  </div>
+  <div class="column">
+   <h2 id="culturecourtyard" class="header">Culture Courtyard</h2>
+   <p>Specially curated displays provide comparative insights that will give visitors a better understanding of the commonalities across the world’s major belief systems – and how different communities around the world, as well as in Singapore, draw meaning from death and dying.
+   <br><br>Stretched over 3,800 sqm, Hell’s Museum also provides a deeper understanding of Haw Par Villa’s infamous 10 Courts of Hell. Discover how concepts behind the graphic representations of sins and punishments in the afterlife evolved as ancient civilisations shared their cultures across time and space. Visit us for an eye-opening experience and have a hell of a time!</p>
+   <img src="fulushou.jpg" alt="Sanxing Deities" style="height:50%;width:50%">
+  </div>
+</div>
+
+<div class="row" style="background-color: #EBE3F2">  
+  <div class="column">
+   <h2 id="hopparvilla" class="header">Hop! Par Villa</h2>
+   <p>Chill out at our Culture Courtyard – the perfect space for music and Arts. This open space is enveloped by splashes of vibrant colour from beautiful pavilions inspired by Chinese architecture.
+   <br><br>Immerse yourself in the laid-back vibes of Haw Par Villa. Lucky ones will even spot our squirrels leaping playfully from tree to tree. Transform the space for any occasion – the sky’s the limit!</p>
+   <a href="https://www.hawparvilla.sg/tours-trails/"><button class="button">More Tours & Trails</button></a>
+  </div>
+  <div class="column">
+    <img src="hop2.jpg" alt="Gallery Hop" title="Gallery Hop">
+   </div>
+</div>
+
+<div class="row">  
+  <h2 id="exhibitions" class="header">Exhibitions</h2>
+  <p style="text-align: center">These captivating exhibitions lays bare the history of the breath-taking Haw Par Villa and the fascinating ideas and concepts inspired by it.</p>
+  <div class="column">
+   <img src="beyondtheveil.jpg" alt="Beyond the Veil" title="Beyond the Veil" style="border: 5px solid #394053">
+   <h2 style="text-align: center">BEYOND THE VEIL</h2>
+   <p>Challenging traditional views on subjects surrounding and beyond death, Beyond the Veil brings together four contemporary artists that explore the unsettling topic through various imaginings as inspired by current situations with the use of new media and interdisciplinary approaches.</p>
+   <img src="car.jpg" alt="Tiger Balm Car" style="height:50%;width:50%"> 
+  </div>
+  <div class="column">
+   <img src="hpvstory.jpg" alt="Haw Par Villa Story" title="Haw Par Villa Story" style="border: 5px solid #394053">
+   <h2 style="text-align: center">THE HAW PAR VILLA STORY</h2>
+   <p>Haw Par Villa – formerly known as the Tiger Balm Garden – is an 8.5-hectare Asian cultural park, the last of its kind in the world. Learn more about this breath-taking park at the Jade House!</p>
+  </div>
+</div>
+
+<div class="row" style="background-color: #EBE3F2">  
+  <div class="column">
+   <h2 id="educationalprogrammes" class="header">Educational Programmes</h2>
+   <p>Be an art critic for the day and get your creativity flowing with our interactive programme!
+   <br><br>Learn about the garden’s creator, Aw Boon Haw, and how he used cultural art to teach valuable lessons to society. Embark on an amazing art journey through Haw Par Villa and pick your way through a remarkable landscape filled to the brim with sculpture of all sorts.
+   <br><br>Through a labyrinth of colorful stone and elaborate dioramas, famous Chinese classics such as Journey to the West and Romance of the Three Kingdoms, and the story of the Eight Immortals Crossing the Eastern Sea are brought to life in stunning detail. Discover also how religions, cultures, and artistic styles came together to influence Chinese and Southeast Asian art and architecture!
+   <br><br>Students will be tasked to examine primary and secondary sources, the sculptures in the park and the stories they heard from the facilitator. They will use the knowledge they have gathered to complete a creative writing activity.</p>
+  </div>
+  <div class="column">
+   <img src="sculpturewalk.jpg" alt="Sculture Walk" title="Sculture Walk">
+   <p style="text-align:center"><small><b>Contact: tourenquiries@shc.com.sg</b><small></p>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://www.hawparvilla.sg/contact-us/">Contact Us</a><a href="https://www.hawparvilla.sg/join-us/">Join Us</a>
+</div>
+
+<script>
+var button = document.getElementById("button");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us - Haw Par Villa</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Trebuchet MS, Helvetica, Sans-serif;
+  font-size: 20px;
+  colour: #394053;
+}
+a:visited {
+  color: #394053;
+}
+
+/*NAVIGATION BAR*/
+.topnav {
+  overflow: hidden;
+  background-color: #DE5055;
+  font-size: 15px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ffcb47;
+  color: #DE5055;
+}
+.topnav a:active {
+  background-color: #ffcb47;
+  color: #000000;
+}
+
+/*IMAGE GRID*/
+.columngrd {
+  float: left;
+  width: 33.33%;
+}
+.rowgrd::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #DE5055;
+  color: white;
+  font-size: 20px;
+}
+.footer a {
+  padding: 10px;
+  text-align: center;
+  background-color: #DE5055;
+  color: white;
+}
+
+
+/*BACK TO TOP BUTTON*/
+#button {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  height: 55px;
+  border-radius: 4px;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="button" title="Back to Top">Back to Top</button>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="activities.html">THINGS TO DO</a>
+  <a href="gettingthere.html">GETTING THERE</a>
+</div> 
+
+<h3 style="text-align: center;color: #394053"><a href="index.html">Home</a> > About Us</h3>
+
+<div style="padding: 50px;background-color: #ffcb47">
+ <img src="entrance3.jpg" alt="gate entrance" style="display: block;margin-left: auto;margin-right: auto;width: 80%">
+ <h2 style="text-align: center;font-size: 50px;font-family: Lucida Handwriting">About Us</h2>
+ <p style="margin-left: 100px;margin-right: 100px;text-align: center;font-family: Trebuchet MS;color: #394053">Built in 1937, Haw Par Villa, Singapore’s largest outdoor art gallery is the brainchild of Aw Boon Haw, the millionaire philanthropist and marketing extraordinaire who gifted the world Tiger Balm.<br><br>The eclectic park is a treasure trove of Asian culture, history, philosophy and religion – quirky yet enlightening, at the same time.<br><br>Since 2015, it has been managed by Journeys Pte Ltd, an award-winning heritage specialist passionate in preserving and bringing the heritage gem to greater heights.</p>  
+</div>
+
+<h2 style="margin-top: 50px;text-align: center;font-size: 50px;font-family: Lucida Handwriting">Lights, Camera, Action!</h2>
+<p style="text-align: center;font-family: Trebuchet MS;color: #394053">Don't be shy to strike a pose with your loved ones<br>Tag us <b>@hawparvilla.sg</b> on Instagram!<br> Stand a chance to be featured on our social media platforms!</p>  
+<div class="rowgrd"; style="margin-bottom: 100px;margin-right: 100px;margin-left: 100px">  
+  <div class="columngrd">
+   <img src="dark.jpg" alt="woman posing" style="width:100%">
+  </div>
+  <div class="columngrd">
+    <img src="twostatues.jpg" alt="man posing" style="width:100%">
+  </div>
+  <div class="columngrd">
+    <img src="kangaroo.jpg" alt="dragon" style="width:100%">
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://www.hawparvilla.sg/contact-us/">Contact Us</a><a href="https://www.hawparvilla.sg/join-us/">Join Us</a>
+</div>
+
+<script>
+var button = document.getElementById("button");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>

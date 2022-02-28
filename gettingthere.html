@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Getting There - Haw Par Villa</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Trebuchet MS, Helvetica, Sans-serif;
+  font-size: 20px;
+  background-colour: #E29742;
+}
+a:visited {
+  color: #394053;
+}
+
+/*NAVIGATION BAR*/
+.topnav {
+  overflow: hidden;
+  background-color: #DE5055;
+  font-size: 15px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #ffcb47;
+  color: #DE5055;
+}
+.topnav a:active {
+  background-color: #ffcb47;
+  color: #000000;
+}
+
+/*HEADER*/
+.header {
+  text-align: center;
+  color:black;
+  font-size:50px;
+  font-family:Lucida Handwriting;
+}
+
+/*COLUMNS*/
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color:#FFFFFF;
+}
+
+/*FOOTER*/
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #DE5055;
+  color: white;
+  font-size: 20px;
+}
+.footer a {
+  padding: 10px;
+  text-align: center;
+  background-color: #DE5055;
+  color: white;
+}
+
+
+/*BACK TO TOP BUTTON*/
+#button {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 150px;
+  height: 55px;
+  border-radius: 4px;
+}
+
+</style>
+</head>
+<body>
+
+<button onclick="topFunction()" id="button" title="Back to Top">Back to Top</button>
+
+<div class="topnav">
+  <a href="index.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="activities.html">THINGS TO DO</a>
+  <a href="gettingthere.html">GETTING THERE</a>
+</div> 
+
+<h3 style="text-align:center;color:#394053"><a href="index.html">Home</a> > Getting There</h3>
+
+<div style="padding: 50px;background-color: #E7E6DD">
+ <h2 class="header">Park Map</h2>
+ <img src="map.jpg" alt="gate entrance" style="display:block;margin-left:auto;margin-right:auto;width:80%">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+
+<div style="padding: 50px;text-align: center">
+ <h2 class="header">Google Maps</h2>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.81781197877!2d103.77975741475399!3d1.2831590990641069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1bac2338a9f5%3A0xe8ff2105a078ac3b!2sHaw%20Par%20Villa!5e0!3m2!1sen!2ssg!4v1646048830647!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ <img src="turtledeer.jpg">
+</div>
+
+<div style="padding: 50px;background-color: #E7E6DD">
+ <h2 class="header">Adimission</h2>
+ <p style="text-align:center;font-family:Trebuchet MS;color:#394053">Haw Par Villa is located along Pasir Panjang Road, easily accessible via public transport and car.
+ <br>The MRT station is just a minute’s walk from the entrance of the park!</p>  
+ <div class="row" style="background-color: #FFFFFF;margin-bottom: 10px;margin-right: 100px;margin-left: 100px">  
+   <div class="column">
+    <h2 style="color: #E3875B">OPERATIONAL HOURS</h2>
+    <b style="color: #519872">PARK OPENING HOURS:</b>
+    <p style="font-size: 15px;color: #394053">9am - 10pm (last entry 9.30pm)<br>Open daily, including weekends and Public Holidays<br>Free Admission</p>
+    <b style="color: #519872">HELL'S MUSEUM:</b>
+    <p style="font-size: 15px;color: #394053">10am - 6pm (last entry 5pm)<br>Tuesdays to Sundays and Public Holidays. Closed on Mondays.<br>Paid Admission</p>
+    <b style="color: #519872">VISITOR CENTRE</b>
+    <p style="font-size: 15px;color: #394053">10am - 6pm (last entry 5pm)<br>Open daily, including weekends and Public Holidays</p>
+   </div>
+   <div class="column">
+    <h2 style="color: #E3875B">GETTING THERE</h2>
+    <b style="color: #519872">ADDRESS:</b>
+    <p style="font-size: 15px;color: #394053">262 Pasir Panjang Road,<br>Singapore 118 628</p>
+    <b style="color: #519872">TRAIN:</b>
+    <p style="font-size: 15px;color: #394053">Haw Par Villa Station CC25 (Circle Line)</p>
+   </div>
+   <div class="column">
+    <h2 style="color: #E3875B">PARKING</h2>
+    <p style="font-size: 15px;color: #394053">Available at Haw Par Villa,<br> or at Science Park & Westway Shopping Mall</p>
+    <b style="color: #519872">HAW PAR VILLA CARPARK OPERATING HOURS:</b>
+    <p style="font-size: 15px;color: #394053">7.30am - 10.30pm (last entry: 9.30pm)</p>
+    <b style="color: #519872">CARPARK FEE (cash only):</b>
+    <p style="font-size: 15px;color: #394053">Cars: $5 per entry<br>Motorcycles: $1 per entry</p>
+    <b style="color: #519872">COACH BAY:</b>
+    <p style="font-size: 15px;color: #394053">4 coach lots available</p>
+   </div>
+ </div>
+</div>
+
+<div class="footer">
+  <a href="https://www.hawparvilla.sg/contact-us/">Contact Us</a><a href="https://www.hawparvilla.sg/join-us/">Join Us</a>
+</div>
+
+<script>
+var button = document.getElementById("button");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    button.style.display = "block";
+  } else {
+    button.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+</body>
+</html>
